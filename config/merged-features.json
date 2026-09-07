@@ -1,0 +1,4163 @@
+[
+  {
+    "id": "clients",
+    "title": "Clients & customers",
+    "group": "Workspace",
+    "description": "Organize clients & customers and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "address",
+        "label": "Address",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/clients",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "matters",
+    "title": "Work items & projects",
+    "group": "Workspace",
+    "description": "Organize work items & projects and track progress.",
+    "fields": [
+      {
+        "name": "reference",
+        "label": "Reference",
+        "type": "text"
+      },
+      {
+        "name": "jurisdiction",
+        "label": "Jurisdiction",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/matters",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "contacts",
+    "title": "Contacts & parties",
+    "group": "Workspace",
+    "description": "Organize contacts & parties and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "relationship",
+        "label": "Relationship",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/contacts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tasks",
+    "title": "Tasks",
+    "group": "Workspace",
+    "description": "Organize tasks and track progress.",
+    "fields": [
+      {
+        "name": "assignee",
+        "label": "Assignee",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/tasks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "calendar",
+    "title": "Calendar",
+    "group": "Workspace",
+    "description": "Organize calendar and track progress.",
+    "fields": [
+      {
+        "name": "event_date",
+        "label": "Event date",
+        "type": "date"
+      },
+      {
+        "name": "location",
+        "label": "Location",
+        "type": "text"
+      },
+      {
+        "name": "attendees",
+        "label": "Attendees",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/calendar",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "deadlines",
+    "title": "Deadlines & reminders",
+    "group": "Workspace",
+    "description": "Organize deadlines & reminders and track progress.",
+    "fields": [
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      },
+      {
+        "name": "requirements",
+        "label": "Requirements",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/deadlines",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "notes",
+    "title": "Notes",
+    "group": "Workspace",
+    "description": "Organize notes and track progress.",
+    "fields": [
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/notes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "documents",
+    "title": "Documents",
+    "group": "Workspace",
+    "description": "Organize documents and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/documents",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "templates",
+    "title": "Templates",
+    "group": "Workspace",
+    "description": "Organize templates and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/templates",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "billing",
+    "title": "Invoices & billing",
+    "group": "Workspace",
+    "description": "Organize invoices & billing and track progress.",
+    "fields": [
+      {
+        "name": "invoice_number",
+        "label": "Invoice number",
+        "type": "text"
+      },
+      {
+        "name": "amount",
+        "label": "Amount",
+        "type": "number"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "payment_status",
+        "label": "Payment status",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/billing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "time",
+    "title": "Time tracking",
+    "group": "Workspace",
+    "description": "Organize time tracking and track progress.",
+    "fields": [
+      {
+        "name": "work_date",
+        "label": "Work date",
+        "type": "date"
+      },
+      {
+        "name": "hours",
+        "label": "Hours",
+        "type": "number"
+      },
+      {
+        "name": "rate",
+        "label": "Rate",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/time",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "messages",
+    "title": "Messages & communications",
+    "group": "Workspace",
+    "description": "Organize messages & communications and track progress.",
+    "fields": [
+      {
+        "name": "recipient",
+        "label": "Recipient",
+        "type": "text"
+      },
+      {
+        "name": "subject",
+        "label": "Subject",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/messages",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reports",
+    "title": "Reports & analytics",
+    "group": "Workspace",
+    "description": "Organize reports & analytics and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "report",
+    "sources": [
+      {
+        "module": "ai-mining-royalty-settlement-reconciliation",
+        "path": "analytics",
+        "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Outcome Analytics"
+      },
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/analytics",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Analytics"
+      },
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/reports",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Reports"
+      },
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/analytics",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Dashboard Analytics"
+      },
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/reports",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Report Builder"
+      },
+      {
+        "module": "mining-safety-compliance-operations-suite",
+        "path": "reports",
+        "source": "/Volumes/external/projects/mining-safety-compliance-operations-suite/public/app.js",
+        "kind": "definition",
+        "label": "Reports"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/reports",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "audit",
+    "title": "Activity & audit trail",
+    "group": "Workspace",
+    "description": "Organize activity & audit trail and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "audit",
+    "sources": [
+      {
+        "module": "ai-mining-royalty-settlement-reconciliation",
+        "path": "audit",
+        "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Decision Audit Trail"
+      },
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/audit-log",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Audit Log"
+      },
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/audit-logs",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Audit Log"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/audit",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "connections",
+    "title": "Provider connections",
+    "group": "Workspace",
+    "description": "Prepare provider connections requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "provider_name",
+        "label": "Provider name",
+        "type": "text"
+      },
+      {
+        "name": "endpoint_url",
+        "label": "Endpoint url",
+        "type": "text"
+      },
+      {
+        "name": "purpose",
+        "label": "Purpose",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/connections",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "mineral-lease-library",
+    "title": "Mineral lease library",
+    "group": "Mining royalty settlement reconciliation",
+    "description": "Execute mineral lease library using mineral leases, production, assays, recoveries, sales, benchmark prices, treatment charges, transportation, deductions, royalty rates, settlements, and payments.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Mine / Royalty Agreement",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Mineral lease library Reference",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Royalty Basis",
+        "type": "select",
+        "options": [
+          "Gross revenue",
+          "Net smelter return",
+          "Production unit"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-mining-royalty-settlement-reconciliation",
+        "path": "mineral-lease-library",
+        "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+        "kind": "definition",
+        "label": "Mineral lease library"
+      }
+    ],
+    "owner": "ai-mining-royalty-settlement-reconciliation",
+    "alternatives": [],
+    "path": "/features/mineral-lease-library",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "mine-production-ingestion",
+    "title": "Mine production ingestion",
+    "group": "Mining royalty settlement reconciliation",
+    "description": "Execute mine production ingestion using mineral leases, production, assays, recoveries, sales, benchmark prices, treatment charges, transportation, deductions, royalty rates, settlements, and payments.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Mine / Royalty Agreement",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Mine production ingestion Reference",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Royalty Basis",
+        "type": "select",
+        "options": [
+          "Gross revenue",
+          "Net smelter return",
+          "Production unit"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-mining-royalty-settlement-reconciliation",
+        "path": "mine-production-ingestion",
+        "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+        "kind": "definition",
+        "label": "Mine production ingestion"
+      }
+    ],
+    "owner": "ai-mining-royalty-settlement-reconciliation",
+    "alternatives": [],
+    "path": "/features/mine-production-ingestion",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "assay-grade-validation",
+    "title": "Assay grade validation",
+    "group": "Mining royalty settlement reconciliation",
+    "description": "Execute assay grade validation using mineral leases, production, assays, recoveries, sales, benchmark prices, treatment charges, transportation, deductions, royalty rates, settlements, and payments.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Mine / Royalty Agreement",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Assay grade validation Reference",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Royalty Basis",
+        "type": "select",
+        "options": [
+          "Gross revenue",
+          "Net smelter return",
+          "Production unit"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-mining-royalty-settlement-reconciliation",
+        "path": "assay-grade-validation",
+        "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+        "kind": "definition",
+        "label": "Assay grade validation"
+      }
+    ],
+    "owner": "ai-mining-royalty-settlement-reconciliation",
+    "alternatives": [],
+    "path": "/features/assay-grade-validation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "metallurgical-recovery",
+    "title": "Metallurgical recovery",
+    "group": "Mining royalty settlement reconciliation",
+    "description": "Execute metallurgical recovery using mineral leases, production, assays, recoveries, sales, benchmark prices, treatment charges, transportation, deductions, royalty rates, settlements, and payments.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Mine / Royalty Agreement",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Metallurgical recovery Reference",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Royalty Basis",
+        "type": "select",
+        "options": [
+          "Gross revenue",
+          "Net smelter return",
+          "Production unit"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-mining-royalty-settlement-reconciliation",
+        "path": "metallurgical-recovery",
+        "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+        "kind": "definition",
+        "label": "Metallurgical recovery"
+      }
+    ],
+    "owner": "ai-mining-royalty-settlement-reconciliation",
+    "alternatives": [],
+    "path": "/features/metallurgical-recovery",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "payable-metal-calculation",
+    "title": "Payable metal calculation",
+    "group": "Mining royalty settlement reconciliation",
+    "description": "Execute payable metal calculation using mineral leases, production, assays, recoveries, sales, benchmark prices, treatment charges, transportation, deductions, royalty rates, settlements, and payments.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Mine / Royalty Agreement",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Payable metal calculation Reference",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Royalty Basis",
+        "type": "select",
+        "options": [
+          "Gross revenue",
+          "Net smelter return",
+          "Production unit"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-mining-royalty-settlement-reconciliation",
+        "path": "payable-metal-calculation",
+        "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+        "kind": "definition",
+        "label": "Payable metal calculation"
+      }
+    ],
+    "owner": "ai-mining-royalty-settlement-reconciliation",
+    "alternatives": [],
+    "path": "/features/payable-metal-calculation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "benchmark-price-mapping",
+    "title": "Benchmark price mapping",
+    "group": "Mining royalty settlement reconciliation",
+    "description": "Execute benchmark price mapping using mineral leases, production, assays, recoveries, sales, benchmark prices, treatment charges, transportation, deductions, royalty rates, settlements, and payments.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Mine / Royalty Agreement",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Benchmark price mapping Reference",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Royalty Basis",
+        "type": "select",
+        "options": [
+          "Gross revenue",
+          "Net smelter return",
+          "Production unit"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-mining-royalty-settlement-reconciliation",
+        "path": "benchmark-price-mapping",
+        "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+        "kind": "definition",
+        "label": "Benchmark price mapping"
+      }
+    ],
+    "owner": "ai-mining-royalty-settlement-reconciliation",
+    "alternatives": [],
+    "path": "/features/benchmark-price-mapping",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sales-revenue-reconciliation",
+    "title": "Sales revenue reconciliation",
+    "group": "Mining royalty settlement reconciliation",
+    "description": "Execute sales revenue reconciliation using mineral leases, production, assays, recoveries, sales, benchmark prices, treatment charges, transportation, deductions, royalty rates, settlements, and payments.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Mine / Royalty Agreement",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Sales revenue reconciliation Reference",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Royalty Basis",
+        "type": "select",
+        "options": [
+          "Gross revenue",
+          "Net smelter return",
+          "Production unit"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-mining-royalty-settlement-reconciliation",
+        "path": "sales-revenue-reconciliation",
+        "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+        "kind": "definition",
+        "label": "Sales revenue reconciliation"
+      }
+    ],
+    "owner": "ai-mining-royalty-settlement-reconciliation",
+    "alternatives": [],
+    "path": "/features/sales-revenue-reconciliation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "treatment-charge-validation",
+    "title": "Treatment charge validation",
+    "group": "Mining royalty settlement reconciliation",
+    "description": "Execute treatment charge validation using mineral leases, production, assays, recoveries, sales, benchmark prices, treatment charges, transportation, deductions, royalty rates, settlements, and payments.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Mine / Royalty Agreement",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Treatment charge validation Reference",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Royalty Basis",
+        "type": "select",
+        "options": [
+          "Gross revenue",
+          "Net smelter return",
+          "Production unit"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-mining-royalty-settlement-reconciliation",
+        "path": "treatment-charge-validation",
+        "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+        "kind": "definition",
+        "label": "Treatment charge validation"
+      }
+    ],
+    "owner": "ai-mining-royalty-settlement-reconciliation",
+    "alternatives": [],
+    "path": "/features/treatment-charge-validation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "refining-charge-validation",
+    "title": "Refining charge validation",
+    "group": "Mining royalty settlement reconciliation",
+    "description": "Execute refining charge validation using mineral leases, production, assays, recoveries, sales, benchmark prices, treatment charges, transportation, deductions, royalty rates, settlements, and payments.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Mine / Royalty Agreement",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Refining charge validation Reference",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Royalty Basis",
+        "type": "select",
+        "options": [
+          "Gross revenue",
+          "Net smelter return",
+          "Production unit"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-mining-royalty-settlement-reconciliation",
+        "path": "refining-charge-validation",
+        "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+        "kind": "definition",
+        "label": "Refining charge validation"
+      }
+    ],
+    "owner": "ai-mining-royalty-settlement-reconciliation",
+    "alternatives": [],
+    "path": "/features/refining-charge-validation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "transportation-deduction",
+    "title": "Transportation deduction",
+    "group": "Mining royalty settlement reconciliation",
+    "description": "Execute transportation deduction using mineral leases, production, assays, recoveries, sales, benchmark prices, treatment charges, transportation, deductions, royalty rates, settlements, and payments.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Mine / Royalty Agreement",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Transportation deduction Reference",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Royalty Basis",
+        "type": "select",
+        "options": [
+          "Gross revenue",
+          "Net smelter return",
+          "Production unit"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-mining-royalty-settlement-reconciliation",
+        "path": "transportation-deduction",
+        "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+        "kind": "definition",
+        "label": "Transportation deduction"
+      }
+    ],
+    "owner": "ai-mining-royalty-settlement-reconciliation",
+    "alternatives": [],
+    "path": "/features/transportation-deduction",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "royalty-rate-calculation",
+    "title": "Royalty rate calculation",
+    "group": "Mining royalty settlement reconciliation",
+    "description": "Execute royalty rate calculation using mineral leases, production, assays, recoveries, sales, benchmark prices, treatment charges, transportation, deductions, royalty rates, settlements, and payments.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Mine / Royalty Agreement",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Royalty rate calculation Reference",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Royalty Basis",
+        "type": "select",
+        "options": [
+          "Gross revenue",
+          "Net smelter return",
+          "Production unit"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-mining-royalty-settlement-reconciliation",
+        "path": "royalty-rate-calculation",
+        "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+        "kind": "definition",
+        "label": "Royalty rate calculation"
+      }
+    ],
+    "owner": "ai-mining-royalty-settlement-reconciliation",
+    "alternatives": [],
+    "path": "/features/royalty-rate-calculation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "settlement-statement-audit",
+    "title": "Settlement statement audit",
+    "group": "Mining royalty settlement reconciliation",
+    "description": "Execute settlement statement audit using mineral leases, production, assays, recoveries, sales, benchmark prices, treatment charges, transportation, deductions, royalty rates, settlements, and payments.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Mine / Royalty Agreement",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Settlement statement audit Reference",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Royalty Basis",
+        "type": "select",
+        "options": [
+          "Gross revenue",
+          "Net smelter return",
+          "Production unit"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-mining-royalty-settlement-reconciliation",
+        "path": "settlement-statement-audit",
+        "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+        "kind": "definition",
+        "label": "Settlement statement audit"
+      }
+    ],
+    "owner": "ai-mining-royalty-settlement-reconciliation",
+    "alternatives": [],
+    "path": "/features/settlement-statement-audit",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "operator-dispute-workflow",
+    "title": "Operator dispute workflow",
+    "group": "Mining royalty settlement reconciliation",
+    "description": "Execute operator dispute workflow using mineral leases, production, assays, recoveries, sales, benchmark prices, treatment charges, transportation, deductions, royalty rates, settlements, and payments.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Mine / Royalty Agreement",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Operator dispute workflow Reference",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Royalty Basis",
+        "type": "select",
+        "options": [
+          "Gross revenue",
+          "Net smelter return",
+          "Production unit"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-mining-royalty-settlement-reconciliation",
+        "path": "operator-dispute-workflow",
+        "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+        "kind": "definition",
+        "label": "Operator dispute workflow"
+      }
+    ],
+    "owner": "ai-mining-royalty-settlement-reconciliation",
+    "alternatives": [],
+    "path": "/features/operator-dispute-workflow",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cash-reconciliation",
+    "title": "Cash reconciliation",
+    "group": "Mining royalty settlement reconciliation",
+    "description": "Execute cash reconciliation using mineral leases, production, assays, recoveries, sales, benchmark prices, treatment charges, transportation, deductions, royalty rates, settlements, and payments.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Mine / Royalty Agreement",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Cash reconciliation Reference",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Royalty Basis",
+        "type": "select",
+        "options": [
+          "Gross revenue",
+          "Net smelter return",
+          "Production unit"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-mining-royalty-settlement-reconciliation",
+        "path": "cash-reconciliation",
+        "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+        "kind": "definition",
+        "label": "Cash reconciliation"
+      }
+    ],
+    "owner": "ai-mining-royalty-settlement-reconciliation",
+    "alternatives": [],
+    "path": "/features/cash-reconciliation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "mine-commodity-analytics",
+    "title": "Mine commodity analytics",
+    "group": "Mining royalty settlement reconciliation",
+    "description": "Execute mine commodity analytics using mineral leases, production, assays, recoveries, sales, benchmark prices, treatment charges, transportation, deductions, royalty rates, settlements, and payments.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Mine / Royalty Agreement",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Mine commodity analytics Reference",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Royalty Basis",
+        "type": "select",
+        "options": [
+          "Gross revenue",
+          "Net smelter return",
+          "Production unit"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-mining-royalty-settlement-reconciliation",
+        "path": "mine-commodity-analytics",
+        "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+        "kind": "definition",
+        "label": "Mine commodity analytics"
+      }
+    ],
+    "owner": "ai-mining-royalty-settlement-reconciliation",
+    "alternatives": [],
+    "path": "/features/mine-commodity-analytics",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "properties",
+    "title": "Properties",
+    "group": "Mineral exploration geology",
+    "description": "Organize properties and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/properties",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Properties"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/properties",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "claims",
+    "title": "Claims",
+    "group": "Mineral exploration geology",
+    "description": "Organize claims and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/claims",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Claims"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/claims",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "drill-holes",
+    "title": "Drill Holes",
+    "group": "Mineral exploration geology",
+    "description": "Organize drill holes and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/drill-holes",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Drill Holes"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/drill-holes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "assay-results",
+    "title": "Assay Results",
+    "group": "Mineral exploration geology",
+    "description": "Organize assay results and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/assay-results",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Assay Results"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/assay-results",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "geological-logs",
+    "title": "Geological Logs",
+    "group": "Mineral exploration geology",
+    "description": "Organize geological logs and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/geological-logs",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Geological Logs"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/geological-logs",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "drill-targets",
+    "title": "Drill Targets",
+    "group": "Mineral exploration geology",
+    "description": "Organize drill targets and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/drill-targets",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Drill Targets"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/drill-targets",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "geophysics-surveys",
+    "title": "Geophysics Surveys",
+    "group": "Mineral exploration geology",
+    "description": "Organize geophysics surveys and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/geophysics-surveys",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Geophysics Surveys"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/geophysics-surveys",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "geochem-samples",
+    "title": "Geochem Samples",
+    "group": "Mineral exploration geology",
+    "description": "Organize geochem samples and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/geochem-samples",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Geochem Samples"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/geochem-samples",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "samples-inventory",
+    "title": "Samples Inventory",
+    "group": "Mineral exploration geology",
+    "description": "Organize samples inventory and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/samples-inventory",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Samples Inventory"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/samples-inventory",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "permits",
+    "title": "Permits",
+    "group": "Mineral exploration geology",
+    "description": "Organize permits and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/permits",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Permits"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/permits",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "environmental-impacts",
+    "title": "Environmental Impacts",
+    "group": "Mineral exploration geology",
+    "description": "Organize environmental impacts and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/environmental-impacts",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Environmental Impacts"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/environmental-impacts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "indigenous-consultations",
+    "title": "Indigenous Consultations",
+    "group": "Mineral exploration geology",
+    "description": "Organize indigenous consultations and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/indigenous-consultations",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Indigenous Consultations"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/indigenous-consultations",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "partners",
+    "title": "Partners / JVs",
+    "group": "Mineral exploration geology",
+    "description": "Organize partners / jvs and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/partners",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Partners / JVs"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/partners",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "geologists",
+    "title": "Geologists",
+    "group": "Mineral exploration geology",
+    "description": "Organize geologists and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/geologists",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Geologists"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/geologists",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "contractors",
+    "title": "Contractors",
+    "group": "Mineral exploration geology",
+    "description": "Organize contractors and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/contractors",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Contractors"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/contractors",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "ndp-resource-estimates",
+    "title": "NI 43-101 Estimates",
+    "group": "Mineral exploration geology",
+    "description": "Organize ni 43-101 estimates and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/ndp-resource-estimates",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "NI 43-101 Estimates"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/ndp-resource-estimates",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "expense-reports",
+    "title": "Expense Reports",
+    "group": "Mineral exploration geology",
+    "description": "Organize expense reports and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/expense-reports",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Expense Reports"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/expense-reports",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "anomaly-cluster",
+    "title": "AI \u00b7 Anomaly Cluster",
+    "group": "Mineral exploration geology",
+    "description": "Organize ai \u00b7 anomaly cluster and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/ai/anomaly-cluster",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Anomaly Cluster"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/anomaly-cluster",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "drill-target-rank",
+    "title": "AI \u00b7 Drill Target Rank",
+    "group": "Mineral exploration geology",
+    "description": "Organize ai \u00b7 drill target rank and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/ai/drill-target-rank",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Drill Target Rank"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/drill-target-rank",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "ndp-43-101-summary",
+    "title": "AI \u00b7 NI 43-101 Summary",
+    "group": "Mineral exploration geology",
+    "description": "Organize ai \u00b7 ni 43-101 summary and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/ai/ndp-43-101-summary",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 NI 43-101 Summary"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/ndp-43-101-summary",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "assay-trend",
+    "title": "AI \u00b7 Assay Trend",
+    "group": "Mineral exploration geology",
+    "description": "Organize ai \u00b7 assay trend and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/ai/assay-trend",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Assay Trend"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/assay-trend",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "executive-brief",
+    "title": "AI \u00b7 Executive Brief",
+    "group": "Mineral exploration geology",
+    "description": "Organize ai \u00b7 executive brief and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/ai/executive-brief",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Executive Brief"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/executive-brief",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "permit-readiness",
+    "title": "AI \u00b7 Permit Readiness",
+    "group": "Mineral exploration geology",
+    "description": "Organize ai \u00b7 permit readiness and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/ai/permit-readiness",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Permit Readiness"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/permit-readiness",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "environmental-risk-brief",
+    "title": "AI \u00b7 Environmental Risk",
+    "group": "Mineral exploration geology",
+    "description": "Organize ai \u00b7 environmental risk and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/ai/environmental-risk-brief",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Environmental Risk"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/environmental-risk-brief",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "indigenous-engagement-plan",
+    "title": "AI \u00b7 Indigenous Plan",
+    "group": "Mineral exploration geology",
+    "description": "Organize ai \u00b7 indigenous plan and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/ai/indigenous-engagement-plan",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Indigenous Plan"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/indigenous-engagement-plan",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "vendor-quote-compare",
+    "title": "AI \u00b7 Vendor Quote Compare",
+    "group": "Mineral exploration geology",
+    "description": "Organize ai \u00b7 vendor quote compare and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/ai/vendor-quote-compare",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Vendor Quote Compare"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/vendor-quote-compare",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "partner-pitch-draft",
+    "title": "AI \u00b7 Partner Pitch",
+    "group": "Mineral exploration geology",
+    "description": "Organize ai \u00b7 partner pitch and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/ai/partner-pitch-draft",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Partner Pitch"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/partner-pitch-draft",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "exploration-budget",
+    "title": "AI \u00b7 Exploration Budget",
+    "group": "Mineral exploration geology",
+    "description": "Organize ai \u00b7 exploration budget and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/ai/exploration-budget",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Exploration Budget"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/exploration-budget",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "geologist-shift-plan",
+    "title": "AI \u00b7 Geologist Shift Plan",
+    "group": "Mineral exploration geology",
+    "description": "Organize ai \u00b7 geologist shift plan and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/ai/geologist-shift-plan",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Geologist Shift Plan"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/geologist-shift-plan",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "geochem-pathfinder-detect",
+    "title": "AI \u00b7 Geochem Pathfinder",
+    "group": "Mineral exploration geology",
+    "description": "Organize ai \u00b7 geochem pathfinder and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/ai/geochem-pathfinder-detect",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Geochem Pathfinder"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/geochem-pathfinder-detect",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "geophysics-interpretation",
+    "title": "AI \u00b7 Geophysics Interp.",
+    "group": "Mineral exploration geology",
+    "description": "Organize ai \u00b7 geophysics interp. and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/ai/geophysics-interpretation",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Geophysics Interp."
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/geophysics-interpretation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "resource-statement-draft",
+    "title": "AI \u00b7 Resource Statement",
+    "group": "Mineral exploration geology",
+    "description": "Organize ai \u00b7 resource statement and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/ai/resource-statement-draft",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Resource Statement"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/resource-statement-draft",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "jurisdictional-risk",
+    "title": "AI \u00b7 Jurisdictional Risk",
+    "group": "Mineral exploration geology",
+    "description": "Organize ai \u00b7 jurisdictional risk and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "/ai/jurisdictional-risk",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Jurisdictional Risk"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/jurisdictional-risk",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "lithology-classify",
+    "title": "Lithology classify",
+    "group": "Mineral exploration geology",
+    "description": "Organize lithology classify and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "ai/lithology-classify",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology",
+        "kind": "route",
+        "label": "Lithology classify"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/lithology-classify",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "prospectivity-score",
+    "title": "Prospectivity score",
+    "group": "Mineral exploration geology",
+    "description": "Organize prospectivity score and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "ai/prospectivity-score",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology",
+        "kind": "route",
+        "label": "Prospectivity score"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/prospectivity-score",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "resource-block-confidence",
+    "title": "Resource block confidence",
+    "group": "Mineral exploration geology",
+    "description": "Organize resource block confidence and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "ai/resource-block-confidence",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology",
+        "kind": "route",
+        "label": "Resource block confidence"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/resource-block-confidence",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "assay-anomaly-narrate",
+    "title": "Assay anomaly narrate",
+    "group": "Mineral exploration geology",
+    "description": "Organize assay anomaly narrate and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "ai/assay-anomaly-narrate",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology",
+        "kind": "route",
+        "label": "Assay anomaly narrate"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/assay-anomaly-narrate",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "block-model",
+    "title": "Block model",
+    "group": "Mineral exploration geology",
+    "description": "Organize block model and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "block-model",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology",
+        "kind": "route",
+        "label": "Block model"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/block-model",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "claim-ledger",
+    "title": "Claim ledger",
+    "group": "Mineral exploration geology",
+    "description": "Organize claim ledger and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "claim-ledger",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology",
+        "kind": "route",
+        "label": "Claim ledger"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/claim-ledger",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "core-chain-custody",
+    "title": "Core chain custody",
+    "group": "Mineral exploration geology",
+    "description": "Organize core chain custody and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "core-chain-custody",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology",
+        "kind": "route",
+        "label": "Core chain custody"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/core-chain-custody",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "webhooks",
+    "title": "Webhooks",
+    "group": "Mineral exploration geology",
+    "description": "Prepare webhooks requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIMineralExplorationGeology",
+        "path": "webhooks",
+        "source": "/Volumes/external/projects/AIMineralExplorationGeology",
+        "kind": "route",
+        "label": "Webhooks"
+      }
+    ],
+    "owner": "AIMineralExplorationGeology",
+    "alternatives": [],
+    "path": "/features/webhooks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "ore-grades",
+    "title": "Ore Grade Prediction",
+    "group": "Mining operations optimizer",
+    "description": "Organize ore grade prediction and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/ore-grades",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Ore Grade Prediction"
+      }
+    ],
+    "owner": "AIMiningOperationsOptimizer",
+    "alternatives": [],
+    "path": "/features/ore-grades",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "drill-patterns",
+    "title": "Drill Optimization",
+    "group": "Mining operations optimizer",
+    "description": "Organize drill optimization and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/drill-patterns",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Drill Optimization"
+      },
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/drill-patterns",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Drill Pattern Optimization"
+      }
+    ],
+    "owner": "AIMiningOperationsOptimizer",
+    "alternatives": [],
+    "path": "/features/drill-patterns",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "safety-incidents",
+    "title": "Safety Monitoring",
+    "group": "Mining operations optimizer",
+    "description": "Organize safety monitoring and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/safety-incidents",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Safety Monitoring"
+      }
+    ],
+    "owner": "AIMiningOperationsOptimizer",
+    "alternatives": [],
+    "path": "/features/safety-incidents",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "equipment",
+    "title": "Equipment",
+    "group": "Mining operations optimizer",
+    "description": "Organize equipment and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/equipment",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Equipment"
+      },
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/equipment",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Equipment Utilization"
+      }
+    ],
+    "owner": "AIMiningOperationsOptimizer",
+    "alternatives": [],
+    "path": "/features/equipment",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "environmental",
+    "title": "Environmental",
+    "group": "Mining operations optimizer",
+    "description": "Organize environmental and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/environmental",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Environmental"
+      },
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/environmental",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Environmental Compliance"
+      }
+    ],
+    "owner": "AIMiningOperationsOptimizer",
+    "alternatives": [],
+    "path": "/features/environmental",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "production-logs",
+    "title": "Production Logs",
+    "group": "Mining operations optimizer",
+    "description": "Organize production logs and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/production-logs",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Production Logs"
+      },
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/production-logs",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Production Analytics"
+      }
+    ],
+    "owner": "AIMiningOperationsOptimizer",
+    "alternatives": [],
+    "path": "/features/production-logs",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "workforce",
+    "title": "Workforce",
+    "group": "Mining operations optimizer",
+    "description": "Organize workforce and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/workforce",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Workforce"
+      },
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/workforce",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Workforce Management"
+      }
+    ],
+    "owner": "AIMiningOperationsOptimizer",
+    "alternatives": [],
+    "path": "/features/workforce",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cost-analysis",
+    "title": "Cost Analysis",
+    "group": "Mining operations optimizer",
+    "description": "Organize cost analysis and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/cost-analysis",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Cost Analysis"
+      }
+    ],
+    "owner": "AIMiningOperationsOptimizer",
+    "alternatives": [],
+    "path": "/features/cost-analysis",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "geology-maps",
+    "title": "Geology Mapping",
+    "group": "Mining operations optimizer",
+    "description": "Organize geology mapping and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/geology-maps",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Geology Mapping"
+      }
+    ],
+    "owner": "AIMiningOperationsOptimizer",
+    "alternatives": [],
+    "path": "/features/geology-maps",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "hauling",
+    "title": "Hauling & Logistics",
+    "group": "Mining operations optimizer",
+    "description": "Organize hauling & logistics and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/hauling",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Hauling & Logistics"
+      }
+    ],
+    "owner": "AIMiningOperationsOptimizer",
+    "alternatives": [],
+    "path": "/features/hauling",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "alerts",
+    "title": "Alerts",
+    "group": "Mining operations optimizer",
+    "description": "Organize alerts and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/alerts",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Alerts"
+      },
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/alerts",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Alert System"
+      }
+    ],
+    "owner": "AIMiningOperationsOptimizer",
+    "alternatives": [],
+    "path": "/features/alerts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "shift-schedules",
+    "title": "Shift Scheduling",
+    "group": "Mining operations optimizer",
+    "description": "Organize shift scheduling and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/shift-schedules",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Shift Scheduling"
+      }
+    ],
+    "owner": "AIMiningOperationsOptimizer",
+    "alternatives": [],
+    "path": "/features/shift-schedules",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "maintenance",
+    "title": "Maintenance",
+    "group": "Mining operations optimizer",
+    "description": "Organize maintenance and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/maintenance",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Maintenance"
+      },
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/maintenance",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Maintenance Scheduler"
+      }
+    ],
+    "owner": "AIMiningOperationsOptimizer",
+    "alternatives": [],
+    "path": "/features/maintenance",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "inventory",
+    "title": "Inventory",
+    "group": "Mining operations optimizer",
+    "description": "Organize inventory and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/inventory",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Inventory"
+      },
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/inventory",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Inventory Tracking"
+      }
+    ],
+    "owner": "AIMiningOperationsOptimizer",
+    "alternatives": [],
+    "path": "/features/inventory",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "export",
+    "title": "Data Export",
+    "group": "Mining operations optimizer",
+    "description": "Organize data export and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/export",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Data Export"
+      }
+    ],
+    "owner": "AIMiningOperationsOptimizer",
+    "alternatives": [],
+    "path": "/features/export",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "user-management",
+    "title": "User Management",
+    "group": "Mining operations optimizer",
+    "description": "Organize user management and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/user-management",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "User Management"
+      },
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/users",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "User Management"
+      }
+    ],
+    "owner": "AIMiningOperationsOptimizer",
+    "alternatives": [],
+    "path": "/features/user-management",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "production-forecast",
+    "title": "Production Forecast",
+    "group": "Mining operations optimizer",
+    "description": "Forecast production by wrapping drill optimization with recent ProductionLog context.",
+    "fields": [
+      {
+        "name": "drillPatternId",
+        "label": "Drill Pattern ID",
+        "type": "text"
+      },
+      {
+        "name": "lookbackDays",
+        "label": "Lookback Days",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/ai/production-forecast",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/AIToolsPage.js",
+        "kind": "definition",
+        "label": "Production Forecast"
+      }
+    ],
+    "owner": "AIMiningOperationsOptimizer",
+    "alternatives": [],
+    "path": "/features/production-forecast",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "equipment-failure-predict",
+    "title": "Equipment Failure Predict",
+    "group": "Mining operations optimizer",
+    "description": "Predict failure risk for an Equipment row.",
+    "fields": [
+      {
+        "name": "equipmentId",
+        "label": "Equipment ID (optional)",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/ai/equipment-failure-predict",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/AIToolsPage.js",
+        "kind": "definition",
+        "label": "Equipment Failure Predict"
+      }
+    ],
+    "owner": "AIMiningOperationsOptimizer",
+    "alternatives": [],
+    "path": "/features/equipment-failure-predict",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "safety-risk-assess",
+    "title": "Safety Risk Assess",
+    "group": "Mining operations optimizer",
+    "description": "Assess safety risk with cluster context across recent incidents.",
+    "fields": [
+      {
+        "name": "incidentId",
+        "label": "Incident ID (optional)",
+        "type": "text"
+      },
+      {
+        "name": "lookbackDays",
+        "label": "Lookback Days",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/ai/safety-risk-assess",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/AIToolsPage.js",
+        "kind": "definition",
+        "label": "Safety Risk Assess"
+      }
+    ],
+    "owner": "AIMiningOperationsOptimizer",
+    "alternatives": [],
+    "path": "/features/safety-risk-assess",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cost-optimize",
+    "title": "Cost Optimize",
+    "group": "Mining operations optimizer",
+    "description": "Wrap analyzeCost with portfolio-level context across recent CostAnalysis rows.",
+    "fields": [
+      {
+        "name": "cost",
+        "label": "Cost Snapshot (JSON, optional)",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/ai/cost-optimize",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/AIToolsPage.js",
+        "kind": "definition",
+        "label": "Cost Optimize"
+      }
+    ],
+    "owner": "AIMiningOperationsOptimizer",
+    "alternatives": [],
+    "path": "/features/cost-optimize",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "environmental-risk",
+    "title": "Environmental Risk",
+    "group": "Mining operations optimizer",
+    "description": "Assess environmental compliance risk with cluster context across recent reports.",
+    "fields": [
+      {
+        "name": "report",
+        "label": "Report (JSON, optional)",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/ai/environmental-risk",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/AIToolsPage.js",
+        "kind": "definition",
+        "label": "Environmental Risk"
+      }
+    ],
+    "owner": "AIMiningOperationsOptimizer",
+    "alternatives": [],
+    "path": "/features/environmental-risk",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "geology-interpret",
+    "title": "Geology Interpret",
+    "group": "Mining operations optimizer",
+    "description": "Interpret a geology survey (assay / borehole / lithology summary).",
+    "fields": [
+      {
+        "name": "survey",
+        "label": "Survey (JSON or text) *",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/ai/geology-interpret",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/AIToolsPage.js",
+        "kind": "definition",
+        "label": "Geology Interpret"
+      }
+    ],
+    "owner": "AIMiningOperationsOptimizer",
+    "alternatives": [],
+    "path": "/features/geology-interpret",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "mine-to-mill",
+    "title": "Mine-to-Mill Coord",
+    "group": "Mining operations optimizer",
+    "description": "Coordinate upstream mining with downstream mill: scheduling, blending, throughput.",
+    "fields": [
+      {
+        "name": "upstream",
+        "label": "Upstream (JSON, optional)",
+        "type": "textarea"
+      },
+      {
+        "name": "downstream",
+        "label": "Downstream (JSON, optional)",
+        "type": "textarea"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints (JSON, optional)",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/ai/mine-to-mill",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/AIToolsPage.js",
+        "kind": "definition",
+        "label": "Mine-to-Mill Coord"
+      }
+    ],
+    "owner": "AIMiningOperationsOptimizer",
+    "alternatives": [],
+    "path": "/features/mine-to-mill",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "safety-anomaly-detect",
+    "title": "Safety Anomaly Detect",
+    "group": "Mining operations optimizer",
+    "description": "Detect anomaly clusters in recent safety incidents (synchronous fallback).",
+    "fields": [
+      {
+        "name": "window_size",
+        "label": "Window Size",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/ai/safety-anomaly-detect",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/AIToolsPage.js",
+        "kind": "definition",
+        "label": "Safety Anomaly Detect"
+      }
+    ],
+    "owner": "AIMiningOperationsOptimizer",
+    "alternatives": [],
+    "path": "/features/safety-anomaly-detect",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "regulatory-incident-report",
+    "title": "Regulatory Incident Report",
+    "group": "Mining operations optimizer",
+    "description": "Draft a regulatory notice for a safety incident (default jurisdiction MSHA).",
+    "fields": [
+      {
+        "name": "incident_id",
+        "label": "Incident ID (optional)",
+        "type": "text"
+      },
+      {
+        "name": "jurisdiction",
+        "label": "Jurisdiction",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/ai/regulatory-incident-report",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/AIToolsPage.js",
+        "kind": "definition",
+        "label": "Regulatory Incident Report"
+      }
+    ],
+    "owner": "AIMiningOperationsOptimizer",
+    "alternatives": [],
+    "path": "/features/regulatory-incident-report",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "gps-telematics",
+    "title": "GPS Telematics",
+    "group": "Mining operations optimizer",
+    "description": "Fleet/equipment GPS lookup (requires GPS_TELEMATICS_API_KEY).",
+    "fields": [
+      {
+        "name": "equipment_id",
+        "label": "Equipment ID",
+        "type": "text"
+      },
+      {
+        "name": "mode",
+        "label": "Mode",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/ai/gps-telematics",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/AIToolsPage.js",
+        "kind": "definition",
+        "label": "GPS Telematics"
+      }
+    ],
+    "owner": "AIMiningOperationsOptimizer",
+    "alternatives": [],
+    "path": "/features/gps-telematics",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "drone-survey-ingest",
+    "title": "Drone Survey Ingest",
+    "group": "Mining operations optimizer",
+    "description": "Drone imagery / lab assay ingest (requires DRONE_SURVEY_API_KEY).",
+    "fields": [
+      {
+        "name": "survey_id",
+        "label": "Survey ID",
+        "type": "text"
+      },
+      {
+        "name": "mode",
+        "label": "Mode",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "/ai/drone-survey-ingest",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/AIToolsPage.js",
+        "kind": "definition",
+        "label": "Drone Survey Ingest"
+      }
+    ],
+    "owner": "AIMiningOperationsOptimizer",
+    "alternatives": [],
+    "path": "/features/drone-survey-ingest",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tailings-pond-risk",
+    "title": "Tailings pond risk",
+    "group": "Mining operations optimizer",
+    "description": "Organize tailings pond risk and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMiningOperationsOptimizer",
+        "path": "tailings-pond-risk",
+        "source": "/Volumes/external/projects/AIMiningOperationsOptimizer",
+        "kind": "route",
+        "label": "Tailings pond risk"
+      }
+    ],
+    "owner": "AIMiningOperationsOptimizer",
+    "alternatives": [],
+    "path": "/features/tailings-pond-risk",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "rules",
+    "title": "Rules & Jobs",
+    "group": "Mining safety compliance operations suite",
+    "description": "Organize rules & jobs and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "mining-safety-compliance-operations-suite",
+        "path": "rules",
+        "source": "/Volumes/external/projects/mining-safety-compliance-operations-suite/public/app.js",
+        "kind": "definition",
+        "label": "Rules & Jobs"
+      }
+    ],
+    "owner": "mining-safety-compliance-operations-suite",
+    "alternatives": [],
+    "path": "/features/rules",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  }
+]

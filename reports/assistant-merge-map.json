@@ -1,0 +1,397 @@
+[
+  {
+    "id": "ai-documents",
+    "title": "Writing, documents & knowledge",
+    "group": "AI assistants",
+    "path": "/assistants/ai-documents",
+    "featureIds": [
+      "notes",
+      "documents",
+      "templates"
+    ],
+    "ai": true,
+    "representativeId": "notes",
+    "description": "One assistant for 3 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "notes",
+        "title": "Notes",
+        "originalPath": "/features/notes"
+      },
+      {
+        "id": "documents",
+        "title": "Documents",
+        "originalPath": "/features/documents"
+      },
+      {
+        "id": "templates",
+        "title": "Templates",
+        "originalPath": "/features/templates"
+      }
+    ]
+  },
+  {
+    "id": "ai-general",
+    "title": "General assistance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-general",
+    "featureIds": [
+      "mineral-lease-library",
+      "mine-production-ingestion",
+      "metallurgical-recovery",
+      "payable-metal-calculation",
+      "transportation-deduction",
+      "operator-dispute-workflow",
+      "mine-commodity-analytics",
+      "drill-target-rank",
+      "ndp-43-101-summary",
+      "executive-brief",
+      "permit-readiness",
+      "indigenous-engagement-plan",
+      "vendor-quote-compare",
+      "partner-pitch-draft",
+      "geologist-shift-plan",
+      "geochem-pathfinder-detect",
+      "geophysics-interpretation",
+      "resource-statement-draft",
+      "resource-block-confidence",
+      "claim-ledger",
+      "core-chain-custody",
+      "production-logs",
+      "geology-interpret",
+      "mine-to-mill",
+      "gps-telematics",
+      "drone-survey-ingest"
+    ],
+    "ai": true,
+    "representativeId": "mineral-lease-library",
+    "description": "One assistant for 26 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "mineral-lease-library",
+        "title": "Mineral lease library",
+        "originalPath": "/features/mineral-lease-library"
+      },
+      {
+        "id": "mine-production-ingestion",
+        "title": "Mine production ingestion",
+        "originalPath": "/features/mine-production-ingestion"
+      },
+      {
+        "id": "metallurgical-recovery",
+        "title": "Metallurgical recovery",
+        "originalPath": "/features/metallurgical-recovery"
+      },
+      {
+        "id": "payable-metal-calculation",
+        "title": "Payable metal calculation",
+        "originalPath": "/features/payable-metal-calculation"
+      },
+      {
+        "id": "transportation-deduction",
+        "title": "Transportation deduction",
+        "originalPath": "/features/transportation-deduction"
+      },
+      {
+        "id": "operator-dispute-workflow",
+        "title": "Operator dispute workflow",
+        "originalPath": "/features/operator-dispute-workflow"
+      },
+      {
+        "id": "mine-commodity-analytics",
+        "title": "Mine commodity analytics",
+        "originalPath": "/features/mine-commodity-analytics"
+      },
+      {
+        "id": "drill-target-rank",
+        "title": "AI · Drill Target Rank",
+        "originalPath": "/features/drill-target-rank"
+      },
+      {
+        "id": "ndp-43-101-summary",
+        "title": "AI · NI 43-101 Summary",
+        "originalPath": "/features/ndp-43-101-summary"
+      },
+      {
+        "id": "executive-brief",
+        "title": "AI · Executive Brief",
+        "originalPath": "/features/executive-brief"
+      },
+      {
+        "id": "permit-readiness",
+        "title": "AI · Permit Readiness",
+        "originalPath": "/features/permit-readiness"
+      },
+      {
+        "id": "indigenous-engagement-plan",
+        "title": "AI · Indigenous Plan",
+        "originalPath": "/features/indigenous-engagement-plan"
+      },
+      {
+        "id": "vendor-quote-compare",
+        "title": "AI · Vendor Quote Compare",
+        "originalPath": "/features/vendor-quote-compare"
+      },
+      {
+        "id": "partner-pitch-draft",
+        "title": "AI · Partner Pitch",
+        "originalPath": "/features/partner-pitch-draft"
+      },
+      {
+        "id": "geologist-shift-plan",
+        "title": "AI · Geologist Shift Plan",
+        "originalPath": "/features/geologist-shift-plan"
+      },
+      {
+        "id": "geochem-pathfinder-detect",
+        "title": "AI · Geochem Pathfinder",
+        "originalPath": "/features/geochem-pathfinder-detect"
+      },
+      {
+        "id": "geophysics-interpretation",
+        "title": "AI · Geophysics Interp.",
+        "originalPath": "/features/geophysics-interpretation"
+      },
+      {
+        "id": "resource-statement-draft",
+        "title": "AI · Resource Statement",
+        "originalPath": "/features/resource-statement-draft"
+      },
+      {
+        "id": "resource-block-confidence",
+        "title": "Resource block confidence",
+        "originalPath": "/features/resource-block-confidence"
+      },
+      {
+        "id": "claim-ledger",
+        "title": "Claim ledger",
+        "originalPath": "/features/claim-ledger"
+      },
+      {
+        "id": "core-chain-custody",
+        "title": "Core chain custody",
+        "originalPath": "/features/core-chain-custody"
+      },
+      {
+        "id": "production-logs",
+        "title": "Production Logs",
+        "originalPath": "/features/production-logs"
+      },
+      {
+        "id": "geology-interpret",
+        "title": "Geology Interpret",
+        "originalPath": "/features/geology-interpret"
+      },
+      {
+        "id": "mine-to-mill",
+        "title": "Mine-to-Mill Coord",
+        "originalPath": "/features/mine-to-mill"
+      },
+      {
+        "id": "gps-telematics",
+        "title": "GPS Telematics",
+        "originalPath": "/features/gps-telematics"
+      },
+      {
+        "id": "drone-survey-ingest",
+        "title": "Drone Survey Ingest",
+        "originalPath": "/features/drone-survey-ingest"
+      }
+    ]
+  },
+  {
+    "id": "ai-quality",
+    "title": "Risk, quality & compliance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-quality",
+    "featureIds": [
+      "assay-grade-validation",
+      "treatment-charge-validation",
+      "refining-charge-validation",
+      "anomaly-cluster",
+      "environmental-risk-brief",
+      "jurisdictional-risk",
+      "assay-anomaly-narrate",
+      "safety-risk-assess",
+      "environmental-risk",
+      "safety-anomaly-detect",
+      "regulatory-incident-report",
+      "tailings-pond-risk"
+    ],
+    "ai": true,
+    "representativeId": "assay-grade-validation",
+    "description": "One assistant for 12 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "assay-grade-validation",
+        "title": "Assay grade validation",
+        "originalPath": "/features/assay-grade-validation"
+      },
+      {
+        "id": "treatment-charge-validation",
+        "title": "Treatment charge validation",
+        "originalPath": "/features/treatment-charge-validation"
+      },
+      {
+        "id": "refining-charge-validation",
+        "title": "Refining charge validation",
+        "originalPath": "/features/refining-charge-validation"
+      },
+      {
+        "id": "anomaly-cluster",
+        "title": "AI · Anomaly Cluster",
+        "originalPath": "/features/anomaly-cluster"
+      },
+      {
+        "id": "environmental-risk-brief",
+        "title": "AI · Environmental Risk",
+        "originalPath": "/features/environmental-risk-brief"
+      },
+      {
+        "id": "jurisdictional-risk",
+        "title": "AI · Jurisdictional Risk",
+        "originalPath": "/features/jurisdictional-risk"
+      },
+      {
+        "id": "assay-anomaly-narrate",
+        "title": "Assay anomaly narrate",
+        "originalPath": "/features/assay-anomaly-narrate"
+      },
+      {
+        "id": "safety-risk-assess",
+        "title": "Safety Risk Assess",
+        "originalPath": "/features/safety-risk-assess"
+      },
+      {
+        "id": "environmental-risk",
+        "title": "Environmental Risk",
+        "originalPath": "/features/environmental-risk"
+      },
+      {
+        "id": "safety-anomaly-detect",
+        "title": "Safety Anomaly Detect",
+        "originalPath": "/features/safety-anomaly-detect"
+      },
+      {
+        "id": "regulatory-incident-report",
+        "title": "Regulatory Incident Report",
+        "originalPath": "/features/regulatory-incident-report"
+      },
+      {
+        "id": "tailings-pond-risk",
+        "title": "Tailings pond risk",
+        "originalPath": "/features/tailings-pond-risk"
+      }
+    ]
+  },
+  {
+    "id": "ai-finance",
+    "title": "Finance & reconciliation",
+    "group": "AI assistants",
+    "path": "/assistants/ai-finance",
+    "featureIds": [
+      "benchmark-price-mapping",
+      "sales-revenue-reconciliation",
+      "royalty-rate-calculation",
+      "settlement-statement-audit",
+      "cash-reconciliation",
+      "exploration-budget",
+      "cost-analysis",
+      "cost-optimize"
+    ],
+    "ai": true,
+    "representativeId": "benchmark-price-mapping",
+    "description": "One assistant for 8 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "benchmark-price-mapping",
+        "title": "Benchmark price mapping",
+        "originalPath": "/features/benchmark-price-mapping"
+      },
+      {
+        "id": "sales-revenue-reconciliation",
+        "title": "Sales revenue reconciliation",
+        "originalPath": "/features/sales-revenue-reconciliation"
+      },
+      {
+        "id": "royalty-rate-calculation",
+        "title": "Royalty rate calculation",
+        "originalPath": "/features/royalty-rate-calculation"
+      },
+      {
+        "id": "settlement-statement-audit",
+        "title": "Settlement statement audit",
+        "originalPath": "/features/settlement-statement-audit"
+      },
+      {
+        "id": "cash-reconciliation",
+        "title": "Cash reconciliation",
+        "originalPath": "/features/cash-reconciliation"
+      },
+      {
+        "id": "exploration-budget",
+        "title": "AI · Exploration Budget",
+        "originalPath": "/features/exploration-budget"
+      },
+      {
+        "id": "cost-analysis",
+        "title": "Cost Analysis",
+        "originalPath": "/features/cost-analysis"
+      },
+      {
+        "id": "cost-optimize",
+        "title": "Cost Optimize",
+        "originalPath": "/features/cost-optimize"
+      }
+    ]
+  },
+  {
+    "id": "ai-insights",
+    "title": "Insights & recommendations",
+    "group": "AI assistants",
+    "path": "/assistants/ai-insights",
+    "featureIds": [
+      "assay-trend",
+      "lithology-classify",
+      "prospectivity-score",
+      "ore-grades",
+      "production-forecast",
+      "equipment-failure-predict"
+    ],
+    "ai": true,
+    "representativeId": "assay-trend",
+    "description": "One assistant for 6 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "assay-trend",
+        "title": "AI · Assay Trend",
+        "originalPath": "/features/assay-trend"
+      },
+      {
+        "id": "lithology-classify",
+        "title": "Lithology classify",
+        "originalPath": "/features/lithology-classify"
+      },
+      {
+        "id": "prospectivity-score",
+        "title": "Prospectivity score",
+        "originalPath": "/features/prospectivity-score"
+      },
+      {
+        "id": "ore-grades",
+        "title": "Ore Grade Prediction",
+        "originalPath": "/features/ore-grades"
+      },
+      {
+        "id": "production-forecast",
+        "title": "Production Forecast",
+        "originalPath": "/features/production-forecast"
+      },
+      {
+        "id": "equipment-failure-predict",
+        "title": "Equipment Failure Predict",
+        "originalPath": "/features/equipment-failure-predict"
+      }
+    ]
+  }
+]

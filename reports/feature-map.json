@@ -1,0 +1,923 @@
+{
+  "mapped": [
+    {
+      "project": "ai-mining-royalty-settlement-reconciliation",
+      "sourceKey": "mineral-lease-library",
+      "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+      "canonical": "mineral-lease-library",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-mining-royalty-settlement-reconciliation",
+      "sourceKey": "mine-production-ingestion",
+      "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+      "canonical": "mine-production-ingestion",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-mining-royalty-settlement-reconciliation",
+      "sourceKey": "assay-grade-validation",
+      "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+      "canonical": "assay-grade-validation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-mining-royalty-settlement-reconciliation",
+      "sourceKey": "metallurgical-recovery",
+      "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+      "canonical": "metallurgical-recovery",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-mining-royalty-settlement-reconciliation",
+      "sourceKey": "payable-metal-calculation",
+      "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+      "canonical": "payable-metal-calculation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-mining-royalty-settlement-reconciliation",
+      "sourceKey": "benchmark-price-mapping",
+      "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+      "canonical": "benchmark-price-mapping",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-mining-royalty-settlement-reconciliation",
+      "sourceKey": "sales-revenue-reconciliation",
+      "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+      "canonical": "sales-revenue-reconciliation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-mining-royalty-settlement-reconciliation",
+      "sourceKey": "treatment-charge-validation",
+      "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+      "canonical": "treatment-charge-validation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-mining-royalty-settlement-reconciliation",
+      "sourceKey": "refining-charge-validation",
+      "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+      "canonical": "refining-charge-validation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-mining-royalty-settlement-reconciliation",
+      "sourceKey": "transportation-deduction",
+      "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+      "canonical": "transportation-deduction",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-mining-royalty-settlement-reconciliation",
+      "sourceKey": "royalty-rate-calculation",
+      "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+      "canonical": "royalty-rate-calculation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-mining-royalty-settlement-reconciliation",
+      "sourceKey": "settlement-statement-audit",
+      "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+      "canonical": "settlement-statement-audit",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-mining-royalty-settlement-reconciliation",
+      "sourceKey": "operator-dispute-workflow",
+      "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+      "canonical": "operator-dispute-workflow",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-mining-royalty-settlement-reconciliation",
+      "sourceKey": "cash-reconciliation",
+      "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+      "canonical": "cash-reconciliation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-mining-royalty-settlement-reconciliation",
+      "sourceKey": "mine-commodity-analytics",
+      "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/app.config.mjs",
+      "canonical": "mine-commodity-analytics",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-mining-royalty-settlement-reconciliation",
+      "sourceKey": "analytics",
+      "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/frontend/src/App.jsx",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-mining-royalty-settlement-reconciliation",
+      "sourceKey": "audit",
+      "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/frontend/src/App.jsx",
+      "canonical": "audit",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/properties",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "properties",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/claims",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "claims",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/drill-holes",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "drill-holes",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/assay-results",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "assay-results",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/geological-logs",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "geological-logs",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/drill-targets",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "drill-targets",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/geophysics-surveys",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "geophysics-surveys",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/geochem-samples",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "geochem-samples",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/samples-inventory",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "samples-inventory",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/permits",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "permits",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/environmental-impacts",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "environmental-impacts",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/indigenous-consultations",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "indigenous-consultations",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/partners",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "partners",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/geologists",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "geologists",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/contractors",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "contractors",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/ndp-resource-estimates",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "ndp-resource-estimates",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/expense-reports",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "expense-reports",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/audit-log",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "audit",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/ai/anomaly-cluster",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "anomaly-cluster",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/ai/drill-target-rank",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "drill-target-rank",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/ai/ndp-43-101-summary",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "ndp-43-101-summary",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/ai/assay-trend",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "assay-trend",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/ai/executive-brief",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "executive-brief",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/ai/permit-readiness",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "permit-readiness",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/ai/environmental-risk-brief",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "environmental-risk-brief",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/ai/indigenous-engagement-plan",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "indigenous-engagement-plan",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/ai/vendor-quote-compare",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "vendor-quote-compare",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/ai/partner-pitch-draft",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "partner-pitch-draft",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/ai/exploration-budget",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "exploration-budget",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/ai/geologist-shift-plan",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "geologist-shift-plan",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/ai/geochem-pathfinder-detect",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "geochem-pathfinder-detect",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/ai/geophysics-interpretation",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "geophysics-interpretation",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/ai/resource-statement-draft",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "resource-statement-draft",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "/ai/jurisdictional-risk",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology/frontend/src/pages/Dashboard.js",
+      "canonical": "jurisdictional-risk",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "ai/lithology-classify",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology",
+      "canonical": "lithology-classify",
+      "kind": "route"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "ai/prospectivity-score",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology",
+      "canonical": "prospectivity-score",
+      "kind": "route"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "ai/resource-block-confidence",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology",
+      "canonical": "resource-block-confidence",
+      "kind": "route"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "ai/assay-anomaly-narrate",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology",
+      "canonical": "assay-anomaly-narrate",
+      "kind": "route"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "block-model",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology",
+      "canonical": "block-model",
+      "kind": "route"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "claim-ledger",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology",
+      "canonical": "claim-ledger",
+      "kind": "route"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "core-chain-custody",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology",
+      "canonical": "core-chain-custody",
+      "kind": "route"
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "sourceKey": "webhooks",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology",
+      "canonical": "webhooks",
+      "kind": "route"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/analytics",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/ore-grades",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+      "canonical": "ore-grades",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/drill-patterns",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+      "canonical": "drill-patterns",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/safety-incidents",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+      "canonical": "safety-incidents",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/equipment",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+      "canonical": "equipment",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/environmental",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+      "canonical": "environmental",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/production-logs",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+      "canonical": "production-logs",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/workforce",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+      "canonical": "workforce",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/cost-analysis",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+      "canonical": "cost-analysis",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/geology-maps",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+      "canonical": "geology-maps",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/hauling",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+      "canonical": "hauling",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/alerts",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+      "canonical": "alerts",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/shift-schedules",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+      "canonical": "shift-schedules",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/maintenance",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+      "canonical": "maintenance",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/inventory",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+      "canonical": "inventory",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/reports",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/export",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+      "canonical": "export",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/audit-logs",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+      "canonical": "audit",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/user-management",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+      "canonical": "user-management",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/ai/production-forecast",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/AIToolsPage.js",
+      "canonical": "production-forecast",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/ai/equipment-failure-predict",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/AIToolsPage.js",
+      "canonical": "equipment-failure-predict",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/ai/safety-risk-assess",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/AIToolsPage.js",
+      "canonical": "safety-risk-assess",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/ai/cost-optimize",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/AIToolsPage.js",
+      "canonical": "cost-optimize",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/ai/environmental-risk",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/AIToolsPage.js",
+      "canonical": "environmental-risk",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/ai/geology-interpret",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/AIToolsPage.js",
+      "canonical": "geology-interpret",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/ai/mine-to-mill",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/AIToolsPage.js",
+      "canonical": "mine-to-mill",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/ai/safety-anomaly-detect",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/AIToolsPage.js",
+      "canonical": "safety-anomaly-detect",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/ai/regulatory-incident-report",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/AIToolsPage.js",
+      "canonical": "regulatory-incident-report",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/ai/gps-telematics",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/AIToolsPage.js",
+      "canonical": "gps-telematics",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/ai/drone-survey-ingest",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/AIToolsPage.js",
+      "canonical": "drone-survey-ingest",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/drill-patterns",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/Dashboard.js",
+      "canonical": "drill-patterns",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/equipment",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/Dashboard.js",
+      "canonical": "equipment",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/environmental",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/Dashboard.js",
+      "canonical": "environmental",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/production-logs",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/Dashboard.js",
+      "canonical": "production-logs",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/workforce",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/Dashboard.js",
+      "canonical": "workforce",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/analytics",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/Dashboard.js",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/alerts",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/Dashboard.js",
+      "canonical": "alerts",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/maintenance",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/Dashboard.js",
+      "canonical": "maintenance",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/inventory",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/Dashboard.js",
+      "canonical": "inventory",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/reports",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/Dashboard.js",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "/users",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/Dashboard.js",
+      "canonical": "user-management",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "sourceKey": "tailings-pond-risk",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer",
+      "canonical": "tailings-pond-risk",
+      "kind": "route"
+    },
+    {
+      "project": "mining-safety-compliance-operations-suite",
+      "sourceKey": "rules",
+      "source": "/Volumes/external/projects/mining-safety-compliance-operations-suite/public/app.js",
+      "canonical": "rules",
+      "kind": "definition"
+    },
+    {
+      "project": "mining-safety-compliance-operations-suite",
+      "sourceKey": "reports",
+      "source": "/Volumes/external/projects/mining-safety-compliance-operations-suite/public/app.js",
+      "canonical": "reports",
+      "kind": "definition"
+    }
+  ],
+  "ignored": [
+    {
+      "project": "ai-mining-royalty-settlement-reconciliation",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation/frontend/src/App.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "key": "login",
+      "source": "/Volumes/external/projects/AIMineralExplorationGeology",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMineralExplorationGeology",
+      "key": "/*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "key": "/",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "key": "/ai-tools",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "key": "/search",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "key": "/custom-views",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/components/Layout.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "key": "/search",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer/frontend/src/pages/Dashboard.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "key": "login",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "key": "search",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "key": "ai-tools",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMiningOperationsOptimizer",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AIMiningOperationsOptimizer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "mining-safety-compliance-operations-suite",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/mining-safety-compliance-operations-suite/public/app.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "mining-safety-compliance-operations-suite",
+      "key": "ai-center",
+      "source": "/Volumes/external/projects/mining-safety-compliance-operations-suite/public/app.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    }
+  ],
+  "migrationWarnings": [
+    {
+      "feature": "mineral-lease-library",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "mine-production-ingestion",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "assay-grade-validation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "metallurgical-recovery",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "payable-metal-calculation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "benchmark-price-mapping",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "sales-revenue-reconciliation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "treatment-charge-validation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "refining-charge-validation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "transportation-deduction",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "royalty-rate-calculation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "settlement-statement-audit",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "operator-dispute-workflow",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "cash-reconciliation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "mine-commodity-analytics",
+      "reason": "Source calculation module missing; native records/drafts only."
+    }
+  ]
+}

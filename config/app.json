@@ -1,0 +1,23 @@
+{
+  "id": "mining-platform",
+  "title": "Mining & mineral operations",
+  "buyer": "Mining and mineral-resource operators",
+  "sourceCount": 4,
+  "sources": [
+    "ai-mining-royalty-settlement-reconciliation",
+    "AIMineralExplorationGeology",
+    "AIMiningOperationsOptimizer",
+    "mining-safety-compliance-operations-suite"
+  ],
+  "status": "proposed build; not implemented",
+  "canonicalFeatureStatus": "Requires feature-level mapping and workflow migration; source route counts are not feature-completion counts.",
+  "port": 46024,
+  "productName": "Mining Workspace",
+  "runtimeVersion": "1.0.0",
+  "sourceRoots": [
+    "/Volumes/external/projects/ai-mining-royalty-settlement-reconciliation",
+    "/Volumes/external/projects/AIMineralExplorationGeology",
+    "/Volumes/external/projects/AIMiningOperationsOptimizer",
+    "/Volumes/external/projects/mining-safety-compliance-operations-suite"
+  ]
+}

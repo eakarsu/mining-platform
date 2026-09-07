@@ -1,0 +1,9 @@
+{
+  "app": "mining-platform",
+  "features": 100,
+  "sourceApps": 4,
+  "calculatorEngines": 0,
+  "registryHash": "4e8b19bdffd34185a1b28c30095c379833ddd65c83129a46e8411ba251227033",
+  "builtAt": "2026-09-07T22:05:42.116Z",
+  "status": "built"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ai-mining-royalty-settlement-reconciliation",
+    "name": "Mining royalty settlement reconciliation",
+    "sourceProject": "ai-mining-royalty-settlement-reconciliation",
+    "services": []
+  },
+  {
+    "id": "AIMineralExplorationGeology",
+    "name": "Mineral exploration geology",
+    "sourceProject": "AIMineralExplorationGeology",
+    "services": []
+  },
+  {
+    "id": "AIMiningOperationsOptimizer",
+    "name": "Mining operations optimizer",
+    "sourceProject": "AIMiningOperationsOptimizer",
+    "services": []
+  },
+  {
+    "id": "mining-safety-compliance-operations-suite",
+    "name": "Mining safety compliance operations suite",
+    "sourceProject": "mining-safety-compliance-operations-suite",
+    "services": []
+  }
+]
