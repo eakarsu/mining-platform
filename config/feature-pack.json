@@ -1,0 +1,22 @@
+{
+  "insights": [
+    {
+      "id": "insight-assay-results",
+      "feature": "assay-results",
+      "title": "Assay results insight",
+      "focus": "Summarize Assay Results records: totals, status mix, field coverage and recent activity. Use only supplied records; do not invent grades or lab outcomes."
+    },
+    {
+      "id": "insight-permits",
+      "feature": "permits",
+      "title": "Permits insight",
+      "focus": "Summarize Permits records: totals, status mix, field coverage and recent activity. Use only supplied records; do not invent permit approvals or regulatory outcomes."
+    },
+    {
+      "id": "priority-actions",
+      "feature": "tasks",
+      "title": "Priority actions",
+      "focus": "Overdue and upcoming tasks and deadlines, including unassigned work."
+    }
+  ]
+}
